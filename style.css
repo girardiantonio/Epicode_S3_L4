@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 0fr);
+    grid-gap: 10px;
+    border: 5px solid rgb(202, 136, 37);
+    background-color: bisque;
+    padding: 20px;
+}
+
+#drawButton {
+    text-align: center;
+}
+
+.board-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 10px 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.drawn {
+    background-color: rgb(218, 137, 15);
+}
